@@ -1,0 +1,594 @@
+2019-07-24 13:58:23 -Starting AlertmonitorsystemApplication on zhangyuexu with PID 1471 (/Users/xueqiu/Desktop/alertmonitorsystem/target/classes started by xueqiu in /Users/xueqiu/Desktop/alertmonitorsystem)
+2019-07-24 13:58:23 -No active profile set, falling back to default profiles: default
+2019-07-24 13:58:23 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1092794: startup date [Wed Jul 24 13:58:23 CST 2019]; root of context hierarchy
+2019-07-24 13:58:25 -Tomcat initialized with port(s): 8080 (http)
+2019-07-24 13:58:25 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-24 13:58:25 -Starting service [Tomcat]
+2019-07-24 13:58:25 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-07-24 13:58:25 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xueqiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-24 13:58:25 -Initializing Spring embedded WebApplicationContext
+2019-07-24 13:58:25 -Root WebApplicationContext: initialization completed in 2104 ms
+2019-07-24 13:58:25 -Servlet dispatcherServlet mapped to [/]
+2019-07-24 13:58:25 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-24 13:58:25 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-24 13:58:25 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-24 13:58:25 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-24 13:58:26 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 13:58:26 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1092794: startup date [Wed Jul 24 13:58:23 CST 2019]; root of context hierarchy
+2019-07-24 13:58:26 -Mapped "{[/error_type/exportExcel]}" onto public void alertmonitorsystem.controller.Error_typeController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 13:58:26 -Mapped "{[/error_type/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/error_type/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/exportExcel]}" onto public void alertmonitorsystem.controller.Test_caseController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 13:58:26 -Mapped "{[/test_case/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/test_case/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/exportExcel]}" onto public void alertmonitorsystem.controller.Test_resultController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 13:58:26 -Mapped "{[/test_result/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/test_result/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/exportExcel]}" onto public void alertmonitorsystem.controller.White_listController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 13:58:26 -Mapped "{[/white_list/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/white_list/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 13:58:26 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-24 13:58:26 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-24 13:58:26 -Mapped URL path [/white_list/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 13:58:26 -Mapped URL path [/test_result/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 13:58:26 -Mapped URL path [/test_case/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 13:58:26 -Mapped URL path [/error_type/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 13:58:26 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 13:58:26 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 13:58:26 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 13:58:26 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 13:58:27 -LiveReload server is running on port 35729
+2019-07-24 13:58:27 -Registering beans for JMX exposure on startup
+2019-07-24 13:58:27 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-24 13:58:27 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-24 13:58:27 -Starting ProtocolHandler ["http-nio-8080"]
+2019-07-24 13:58:27 -Using a shared selector for servlet write/read
+2019-07-24 13:58:27 -Tomcat started on port(s): 8080 (http) with context path '/alertmonitorsystem'
+2019-07-24 13:58:27 -Started AlertmonitorsystemApplication in 4.953 seconds (JVM running for 6.003)
+2019-07-24 13:59:01 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-24 13:59:01 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-24 13:59:01 -FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2019-07-24 13:59:11 -{dataSource-1} inited
+2019-07-24 13:59:12 -==>  Preparing: select count(1) from White_list 
+2019-07-24 13:59:12 -==> Parameters: 
+2019-07-24 13:59:12 -<==      Total: 1
+2019-07-24 13:59:12 -==>  Preparing: select id, test_case_name from White_list limit ?,? 
+2019-07-24 13:59:12 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 13:59:12 -<==      Total: 1
+2019-07-24 13:59:14 -==>  Preparing: select count(1) from White_list 
+2019-07-24 13:59:14 -==> Parameters: 
+2019-07-24 13:59:14 -<==      Total: 1
+2019-07-24 13:59:14 -==>  Preparing: select id, test_case_name from White_list order by id DESC limit ?,? 
+2019-07-24 13:59:14 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 13:59:14 -<==      Total: 1
+2019-07-24 13:59:15 -==>  Preparing: select count(1) from White_list 
+2019-07-24 13:59:15 -==> Parameters: 
+2019-07-24 13:59:15 -<==      Total: 1
+2019-07-24 13:59:15 -==>  Preparing: select id, test_case_name from White_list order by id ASC limit ?,? 
+2019-07-24 13:59:15 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 13:59:15 -<==      Total: 1
+2019-07-24 13:59:26 -==>  Preparing: select count(1) from Test_result 
+2019-07-24 13:59:26 -==> Parameters: 
+2019-07-24 13:59:26 -<==      Total: 1
+2019-07-24 13:59:26 -==>  Preparing: select id, department_name, test_case_name, test_result, assert_info, testplan_time, error_type, error_comments, testresult_time from Test_result limit ?,? 
+2019-07-24 13:59:26 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 13:59:26 -<==      Total: 0
+2019-07-24 13:59:36 -==>  Preparing: select count(1) from Test_case 
+2019-07-24 13:59:36 -==> Parameters: 
+2019-07-24 13:59:36 -<==      Total: 1
+2019-07-24 13:59:36 -==>  Preparing: select id, department_name, test_case_name, test_result, last_test_result, last_result_time, assert_info, white_list_flag from Test_case limit ?,? 
+2019-07-24 13:59:36 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 13:59:36 -<==      Total: 0
+2019-07-24 14:01:23 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1092794: startup date [Wed Jul 24 13:58:23 CST 2019]; root of context hierarchy
+2019-07-24 14:01:23 -Unregistering JMX-exposed beans on shutdown
+2019-07-24 14:01:23 -Unregistering JMX-exposed beans
+2019-07-24 14:01:23 -{dataSource-1} closed
+2019-07-24 14:01:29 -Starting AlertmonitorsystemApplication on zhangyuexu with PID 1488 (/Users/xueqiu/Desktop/alertmonitorsystem/target/classes started by xueqiu in /Users/xueqiu/Desktop/alertmonitorsystem)
+2019-07-24 14:01:29 -No active profile set, falling back to default profiles: default
+2019-07-24 14:01:29 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dd71d34: startup date [Wed Jul 24 14:01:29 CST 2019]; root of context hierarchy
+2019-07-24 14:01:32 -Tomcat initialized with port(s): 8080 (http)
+2019-07-24 14:01:32 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:01:32 -Starting service [Tomcat]
+2019-07-24 14:01:32 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-07-24 14:01:32 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xueqiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-24 14:01:32 -Initializing Spring embedded WebApplicationContext
+2019-07-24 14:01:32 -Root WebApplicationContext: initialization completed in 2222 ms
+2019-07-24 14:01:32 -Servlet dispatcherServlet mapped to [/]
+2019-07-24 14:01:32 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-24 14:01:32 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-24 14:01:32 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-24 14:01:32 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-24 14:01:32 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:01:33 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dd71d34: startup date [Wed Jul 24 14:01:29 CST 2019]; root of context hierarchy
+2019-07-24 14:01:33 -Mapped "{[/error_type/exportExcel]}" onto public void alertmonitorsystem.controller.Error_typeController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:01:33 -Mapped "{[/error_type/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/error_type/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/exportExcel]}" onto public void alertmonitorsystem.controller.Test_caseController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:01:33 -Mapped "{[/test_case/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_case/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/exportExcel]}" onto public void alertmonitorsystem.controller.Test_resultController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:01:33 -Mapped "{[/test_result/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/test_result/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/exportExcel]}" onto public void alertmonitorsystem.controller.White_listController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:01:33 -Mapped "{[/white_list/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:01:33 -Mapped "{[/white_list/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:01:33 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-24 14:01:33 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-24 14:01:33 -Mapped URL path [/white_list/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:01:33 -Mapped URL path [/test_result/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:01:33 -Mapped URL path [/test_case/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:01:33 -Mapped URL path [/error_type/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:01:33 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:01:33 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:01:33 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:01:33 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:01:33 -LiveReload server is running on port 35729
+2019-07-24 14:01:33 -Registering beans for JMX exposure on startup
+2019-07-24 14:01:33 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-24 14:01:33 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-24 14:01:33 -Starting ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:01:33 -Using a shared selector for servlet write/read
+2019-07-24 14:01:33 -Tomcat started on port(s): 8080 (http) with context path '/alertmonitorsystem'
+2019-07-24 14:01:33 -Started AlertmonitorsystemApplication in 5.169 seconds (JVM running for 5.935)
+2019-07-24 14:01:36 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-24 14:01:36 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-24 14:01:36 -FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2019-07-24 14:01:52 -{dataSource-1} inited
+2019-07-24 14:01:52 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:01:52 -==> Parameters: 
+2019-07-24 14:01:52 -<==      Total: 1
+2019-07-24 14:01:52 -==>  Preparing: select id, test_case_name from White_list limit ?,? 
+2019-07-24 14:01:52 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:01:52 -<==      Total: 1
+2019-07-24 14:03:03 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dd71d34: startup date [Wed Jul 24 14:01:29 CST 2019]; root of context hierarchy
+2019-07-24 14:03:03 -Unregistering JMX-exposed beans on shutdown
+2019-07-24 14:03:03 -Unregistering JMX-exposed beans
+2019-07-24 14:03:03 -{dataSource-1} closed
+2019-07-24 14:03:08 -Starting AlertmonitorsystemApplication on zhangyuexu with PID 1493 (/Users/xueqiu/Desktop/alertmonitorsystem/target/classes started by xueqiu in /Users/xueqiu/Desktop/alertmonitorsystem)
+2019-07-24 14:03:08 -No active profile set, falling back to default profiles: default
+2019-07-24 14:03:08 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@286288a3: startup date [Wed Jul 24 14:03:08 CST 2019]; root of context hierarchy
+2019-07-24 14:03:09 -Tomcat initialized with port(s): 8080 (http)
+2019-07-24 14:03:09 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:03:10 -Starting service [Tomcat]
+2019-07-24 14:03:10 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-07-24 14:03:10 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xueqiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-24 14:03:10 -Initializing Spring embedded WebApplicationContext
+2019-07-24 14:03:10 -Root WebApplicationContext: initialization completed in 2060 ms
+2019-07-24 14:03:10 -Servlet dispatcherServlet mapped to [/]
+2019-07-24 14:03:10 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-24 14:03:10 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-24 14:03:10 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-24 14:03:10 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-24 14:03:10 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:03:10 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@286288a3: startup date [Wed Jul 24 14:03:08 CST 2019]; root of context hierarchy
+2019-07-24 14:03:10 -Mapped "{[/error_type/exportExcel]}" onto public void alertmonitorsystem.controller.Error_typeController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:03:10 -Mapped "{[/error_type/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/error_type/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/exportExcel]}" onto public void alertmonitorsystem.controller.Test_caseController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:03:10 -Mapped "{[/test_case/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/test_case/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/exportExcel]}" onto public void alertmonitorsystem.controller.Test_resultController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:03:10 -Mapped "{[/test_result/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/test_result/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/exportExcel]}" onto public void alertmonitorsystem.controller.White_listController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:03:10 -Mapped "{[/white_list/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/white_list/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:03:10 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-24 14:03:10 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-24 14:03:10 -Mapped URL path [/white_list/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:03:10 -Mapped URL path [/test_result/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:03:10 -Mapped URL path [/test_case/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:03:10 -Mapped URL path [/error_type/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:03:10 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:03:10 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:03:11 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:03:11 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:03:11 -LiveReload server is running on port 35729
+2019-07-24 14:03:11 -Registering beans for JMX exposure on startup
+2019-07-24 14:03:11 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-24 14:03:11 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-24 14:03:11 -Starting ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:03:11 -Using a shared selector for servlet write/read
+2019-07-24 14:03:11 -Tomcat started on port(s): 8080 (http) with context path '/alertmonitorsystem'
+2019-07-24 14:03:11 -Started AlertmonitorsystemApplication in 4.922 seconds (JVM running for 5.742)
+2019-07-24 14:03:16 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-24 14:03:16 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-24 14:03:16 -FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2019-07-24 14:03:36 -{dataSource-1} inited
+2019-07-24 14:03:36 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:03:36 -==> Parameters: 
+2019-07-24 14:03:36 -<==      Total: 1
+2019-07-24 14:03:36 -==>  Preparing: select id, test_case_name from White_list limit ?,? 
+2019-07-24 14:03:36 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:03:36 -<==      Total: 1
+2019-07-24 14:04:00 -==>  Preparing: select count(1) from Test_result 
+2019-07-24 14:04:00 -==> Parameters: 
+2019-07-24 14:04:00 -<==      Total: 1
+2019-07-24 14:04:00 -==>  Preparing: select id, department_name, test_case_name, test_result, assert_info, testplan_time, error_type, error_comments, testresult_time from Test_result limit ?,? 
+2019-07-24 14:04:00 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:04:00 -<==      Total: 0
+2019-07-24 14:04:29 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@286288a3: startup date [Wed Jul 24 14:03:08 CST 2019]; root of context hierarchy
+2019-07-24 14:04:29 -Unregistering JMX-exposed beans on shutdown
+2019-07-24 14:04:29 -Unregistering JMX-exposed beans
+2019-07-24 14:04:29 -{dataSource-1} closed
+2019-07-24 14:04:34 -Starting AlertmonitorsystemApplication on zhangyuexu with PID 1496 (/Users/xueqiu/Desktop/alertmonitorsystem/target/classes started by xueqiu in /Users/xueqiu/Desktop/alertmonitorsystem)
+2019-07-24 14:04:34 -No active profile set, falling back to default profiles: default
+2019-07-24 14:04:34 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@286288a3: startup date [Wed Jul 24 14:04:34 CST 2019]; root of context hierarchy
+2019-07-24 14:04:36 -Tomcat initialized with port(s): 8080 (http)
+2019-07-24 14:04:36 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:04:36 -Starting service [Tomcat]
+2019-07-24 14:04:36 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-07-24 14:04:36 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xueqiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-24 14:04:36 -Initializing Spring embedded WebApplicationContext
+2019-07-24 14:04:36 -Root WebApplicationContext: initialization completed in 2106 ms
+2019-07-24 14:04:36 -Servlet dispatcherServlet mapped to [/]
+2019-07-24 14:04:36 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-24 14:04:36 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-24 14:04:36 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-24 14:04:36 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-24 14:04:37 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:04:37 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@286288a3: startup date [Wed Jul 24 14:04:34 CST 2019]; root of context hierarchy
+2019-07-24 14:04:37 -Mapped "{[/error_type/exportExcel]}" onto public void alertmonitorsystem.controller.Error_typeController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:04:37 -Mapped "{[/error_type/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/error_type/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/exportExcel]}" onto public void alertmonitorsystem.controller.Test_caseController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:04:37 -Mapped "{[/test_case/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/test_case/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/exportExcel]}" onto public void alertmonitorsystem.controller.Test_resultController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:04:37 -Mapped "{[/test_result/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/test_result/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/exportExcel]}" onto public void alertmonitorsystem.controller.White_listController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:04:37 -Mapped "{[/white_list/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/white_list/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:04:37 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-24 14:04:37 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-24 14:04:37 -Mapped URL path [/white_list/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:04:37 -Mapped URL path [/test_result/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:04:37 -Mapped URL path [/test_case/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:04:37 -Mapped URL path [/error_type/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:04:37 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:04:37 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:04:37 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:04:37 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:04:37 -LiveReload server is running on port 35729
+2019-07-24 14:04:37 -Registering beans for JMX exposure on startup
+2019-07-24 14:04:37 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-24 14:04:37 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-24 14:04:37 -Starting ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:04:37 -Using a shared selector for servlet write/read
+2019-07-24 14:04:37 -Tomcat started on port(s): 8080 (http) with context path '/alertmonitorsystem'
+2019-07-24 14:04:37 -Started AlertmonitorsystemApplication in 4.996 seconds (JVM running for 5.736)
+2019-07-24 14:04:40 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-24 14:04:40 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-24 14:04:40 -FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2019-07-24 14:05:01 -{dataSource-1} inited
+2019-07-24 14:05:02 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:05:02 -==> Parameters: 
+2019-07-24 14:05:02 -<==      Total: 1
+2019-07-24 14:05:02 -==>  Preparing: select id, test_case_name from White_list limit ?,? 
+2019-07-24 14:05:02 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:05:02 -<==      Total: 1
+2019-07-24 14:05:38 -==>  Preparing: select count(1) from Test_result 
+2019-07-24 14:05:38 -==> Parameters: 
+2019-07-24 14:05:38 -<==      Total: 1
+2019-07-24 14:05:38 -==>  Preparing: select id, department_name, test_case_name, test_result, assert_info, testplan_time, error_type, error_comments, testresult_time from Test_result limit ?,? 
+2019-07-24 14:05:38 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:05:38 -<==      Total: 0
+2019-07-24 14:05:41 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@286288a3: startup date [Wed Jul 24 14:04:34 CST 2019]; root of context hierarchy
+2019-07-24 14:05:41 -Unregistering JMX-exposed beans on shutdown
+2019-07-24 14:05:41 -Unregistering JMX-exposed beans
+2019-07-24 14:05:41 -{dataSource-1} closed
+2019-07-24 14:05:46 -Starting AlertmonitorsystemApplication on zhangyuexu with PID 1500 (/Users/xueqiu/Desktop/alertmonitorsystem/target/classes started by xueqiu in /Users/xueqiu/Desktop/alertmonitorsystem)
+2019-07-24 14:05:46 -No active profile set, falling back to default profiles: default
+2019-07-24 14:05:46 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@430e29f5: startup date [Wed Jul 24 14:05:46 CST 2019]; root of context hierarchy
+2019-07-24 14:05:48 -Tomcat initialized with port(s): 8080 (http)
+2019-07-24 14:05:48 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:05:48 -Starting service [Tomcat]
+2019-07-24 14:05:48 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-07-24 14:05:48 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xueqiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-24 14:05:48 -Initializing Spring embedded WebApplicationContext
+2019-07-24 14:05:48 -Root WebApplicationContext: initialization completed in 2061 ms
+2019-07-24 14:05:48 -Servlet dispatcherServlet mapped to [/]
+2019-07-24 14:05:48 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-24 14:05:48 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-24 14:05:48 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-24 14:05:48 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-24 14:05:48 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:05:49 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@430e29f5: startup date [Wed Jul 24 14:05:46 CST 2019]; root of context hierarchy
+2019-07-24 14:05:49 -Mapped "{[/error_type/exportExcel]}" onto public void alertmonitorsystem.controller.Error_typeController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:05:49 -Mapped "{[/error_type/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/error_type/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/exportExcel]}" onto public void alertmonitorsystem.controller.Test_caseController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:05:49 -Mapped "{[/test_case/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/test_case/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/exportExcel]}" onto public void alertmonitorsystem.controller.Test_resultController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:05:49 -Mapped "{[/test_result/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/test_result/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/exportExcel]}" onto public void alertmonitorsystem.controller.White_listController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:05:49 -Mapped "{[/white_list/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/white_list/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:05:49 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-24 14:05:49 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-24 14:05:49 -Mapped URL path [/white_list/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:05:49 -Mapped URL path [/test_result/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:05:49 -Mapped URL path [/test_case/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:05:49 -Mapped URL path [/error_type/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:05:49 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:05:49 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:05:49 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:05:49 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:05:49 -LiveReload server is running on port 35729
+2019-07-24 14:05:49 -Registering beans for JMX exposure on startup
+2019-07-24 14:05:49 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-24 14:05:49 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-24 14:05:49 -Starting ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:05:49 -Using a shared selector for servlet write/read
+2019-07-24 14:05:49 -Tomcat started on port(s): 8080 (http) with context path '/alertmonitorsystem'
+2019-07-24 14:05:49 -Started AlertmonitorsystemApplication in 4.932 seconds (JVM running for 5.697)
+2019-07-24 14:05:58 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-24 14:05:58 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-24 14:05:58 -FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-07-24 14:06:29 -{dataSource-1} inited
+2019-07-24 14:06:29 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:06:29 -==> Parameters: 
+2019-07-24 14:06:29 -<==      Total: 1
+2019-07-24 14:06:29 -==>  Preparing: select id, test_case_name from White_list limit ?,? 
+2019-07-24 14:06:29 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:06:29 -<==      Total: 1
+2019-07-24 14:18:12 -==>  Preparing: select count(1) from Test_result 
+2019-07-24 14:18:12 -==> Parameters: 
+2019-07-24 14:18:12 -<==      Total: 1
+2019-07-24 14:18:12 -==>  Preparing: select id, department_name, test_case_name, test_result, assert_info, testplan_time, error_type, error_comments, testresult_time from Test_result limit ?,? 
+2019-07-24 14:18:12 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:18:12 -<==      Total: 0
+2019-07-24 14:18:33 -==>  Preparing: select count(1) from Error_type 
+2019-07-24 14:18:33 -==> Parameters: 
+2019-07-24 14:18:33 -<==      Total: 1
+2019-07-24 14:18:33 -==>  Preparing: select id, error_type from Error_type limit ?,? 
+2019-07-24 14:18:33 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:18:33 -<==      Total: 2
+2019-07-24 14:24:24 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@430e29f5: startup date [Wed Jul 24 14:05:46 CST 2019]; root of context hierarchy
+2019-07-24 14:24:24 -Unregistering JMX-exposed beans on shutdown
+2019-07-24 14:24:24 -Unregistering JMX-exposed beans
+2019-07-24 14:24:24 -{dataSource-1} closed
+2019-07-24 14:41:09 -Starting AlertmonitorsystemApplication on zhangyuexu with PID 1540 (/Users/xueqiu/Desktop/alertmonitorsystem/target/classes started by xueqiu in /Users/xueqiu/Desktop/alertmonitorsystem)
+2019-07-24 14:41:09 -No active profile set, falling back to default profiles: default
+2019-07-24 14:41:09 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dd71d34: startup date [Wed Jul 24 14:41:09 CST 2019]; root of context hierarchy
+2019-07-24 14:41:11 -Tomcat initialized with port(s): 8080 (http)
+2019-07-24 14:41:11 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:41:11 -Starting service [Tomcat]
+2019-07-24 14:41:11 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-07-24 14:41:11 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xueqiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-24 14:41:12 -Initializing Spring embedded WebApplicationContext
+2019-07-24 14:41:12 -Root WebApplicationContext: initialization completed in 2090 ms
+2019-07-24 14:41:12 -Servlet dispatcherServlet mapped to [/]
+2019-07-24 14:41:12 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-24 14:41:12 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-24 14:41:12 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-24 14:41:12 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-24 14:41:12 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:41:12 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dd71d34: startup date [Wed Jul 24 14:41:09 CST 2019]; root of context hierarchy
+2019-07-24 14:41:12 -Mapped "{[/error_type/exportExcel]}" onto public void alertmonitorsystem.controller.Error_typeController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:41:12 -Mapped "{[/error_type/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/error_type/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/exportExcel]}" onto public void alertmonitorsystem.controller.Test_caseController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:41:12 -Mapped "{[/test_case/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/test_case/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/exportExcel]}" onto public void alertmonitorsystem.controller.Test_resultController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:41:12 -Mapped "{[/test_result/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/test_result/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/exportExcel]}" onto public void alertmonitorsystem.controller.White_listController.exportExcel(javax.servlet.http.HttpServletResponse)
+2019-07-24 14:41:12 -Mapped "{[/white_list/add]}" onto public void alertmonitorsystem.controller.BaseController.add(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/update]}" onto public void alertmonitorsystem.controller.BaseController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/delete]}" onto public void alertmonitorsystem.controller.BaseController.delete(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/select]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> alertmonitorsystem.controller.BaseController.select(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/likeSelect]}" onto public java.util.Map<java.lang.String, java.lang.Object> alertmonitorsystem.controller.BaseController.likeSelect(java.util.Map<java.lang.String, java.lang.Object>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/batchAdd]}" onto public void alertmonitorsystem.controller.BaseController.batchAdd(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/batchDelete]}" onto public void alertmonitorsystem.controller.BaseController.batchDelete(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/white_list/batchUpdate]}" onto public void alertmonitorsystem.controller.BaseController.batchUpdate(java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, java.lang.Object>>>)
+2019-07-24 14:41:12 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-24 14:41:12 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-24 14:41:12 -Mapped URL path [/white_list/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:41:12 -Mapped URL path [/test_result/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:41:12 -Mapped URL path [/test_case/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:41:12 -Mapped URL path [/error_type/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:41:12 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:41:12 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-24 14:41:12 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:41:12 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-24 14:41:13 -LiveReload server is running on port 35729
+2019-07-24 14:41:13 -Registering beans for JMX exposure on startup
+2019-07-24 14:41:13 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-24 14:41:13 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-24 14:41:13 -Starting ProtocolHandler ["http-nio-8080"]
+2019-07-24 14:41:13 -Using a shared selector for servlet write/read
+2019-07-24 14:41:13 -Tomcat started on port(s): 8080 (http) with context path '/alertmonitorsystem'
+2019-07-24 14:41:13 -Started AlertmonitorsystemApplication in 4.943 seconds (JVM running for 5.721)
+2019-07-24 14:41:20 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-24 14:41:20 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-24 14:41:20 -FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2019-07-24 14:42:02 -{dataSource-1} inited
+2019-07-24 14:42:03 -==>  Preparing: select count(1) from Test_result 
+2019-07-24 14:42:03 -==> Parameters: 
+2019-07-24 14:42:03 -<==      Total: 1
+2019-07-24 14:42:03 -==>  Preparing: select id, department_name, test_case_name, test_result, assert_info, testplan_time, error_type, error_comments, testresult_time from Test_result limit ?,? 
+2019-07-24 14:42:03 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:42:03 -<==      Total: 0
+2019-07-24 14:42:19 -==>  Preparing: select count(1) from Error_type 
+2019-07-24 14:42:19 -==> Parameters: 
+2019-07-24 14:42:19 -<==      Total: 1
+2019-07-24 14:42:19 -==>  Preparing: select id, error_type from Error_type limit ?,? 
+2019-07-24 14:42:19 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:42:19 -<==      Total: 2
+2019-07-24 14:42:20 -==>  Preparing: select count(1) from Error_type 
+2019-07-24 14:42:20 -==> Parameters: 
+2019-07-24 14:42:20 -<==      Total: 1
+2019-07-24 14:42:20 -==>  Preparing: select id, error_type from Error_type limit ?,? 
+2019-07-24 14:42:20 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:42:20 -<==      Total: 2
+2019-07-24 14:43:21 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:43:21 -==> Parameters: 
+2019-07-24 14:43:21 -<==      Total: 1
+2019-07-24 14:43:21 -==>  Preparing: select id, test_case_name from White_list limit ?,? 
+2019-07-24 14:43:21 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:43:21 -<==      Total: 1
+2019-07-24 14:43:37 -==>  Preparing: select count(1) from Error_type 
+2019-07-24 14:43:37 -==> Parameters: 
+2019-07-24 14:43:37 -<==      Total: 1
+2019-07-24 14:43:37 -==>  Preparing: select id, error_type from Error_type limit ?,? 
+2019-07-24 14:43:37 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:43:37 -<==      Total: 2
+2019-07-24 14:44:17 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:44:17 -==> Parameters: 
+2019-07-24 14:44:17 -<==      Total: 1
+2019-07-24 14:44:17 -==>  Preparing: select id, test_case_name from White_list order by id DESC limit ?,? 
+2019-07-24 14:44:17 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:44:17 -<==      Total: 1
+2019-07-24 14:44:18 -==>  Preparing: select count(1) from White_list 
+2019-07-24 14:44:18 -==> Parameters: 
+2019-07-24 14:44:18 -<==      Total: 1
+2019-07-24 14:44:18 -==>  Preparing: select id, test_case_name from White_list order by id ASC limit ?,? 
+2019-07-24 14:44:18 -==> Parameters: 0(Integer), 10(Integer)
+2019-07-24 14:44:18 -<==      Total: 1
+2019-07-24 14:44:28 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dd71d34: startup date [Wed Jul 24 14:41:09 CST 2019]; root of context hierarchy
+2019-07-24 14:44:28 -Unregistering JMX-exposed beans on shutdown
+2019-07-24 14:44:28 -Unregistering JMX-exposed beans
+2019-07-24 14:44:28 -{dataSource-1} closed
