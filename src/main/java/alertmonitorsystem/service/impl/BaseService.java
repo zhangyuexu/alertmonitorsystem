@@ -6,6 +6,10 @@ import java.util.Map;
 import alertmonitorsystem.dao.IBaseDao;
 import alertmonitorsystem.service.IBaseService;
 import alertmonitorsystem.utils.CastUtil;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
 
 public class BaseService implements IBaseService {
 
@@ -16,30 +20,33 @@ public class BaseService implements IBaseService {
 	}
 
 	@Override
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
 	public void add(Map<String, Object> map) {
 		dao.add(map);
 	}
-	
+
 	@Override
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
 	public void delete(Map<String, Object> map) {
 		dao.delete(map);
 	}
-	
+
 	@Override
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
 	public void update(Map<String, Object> map) {
 		dao.update(map);
 	}
-	
+
 	@Override
 	public List<Map<String,Object>> select(Map<String, Object> map) {
 		return dao.select(map);
 	}
-	
+
 	@Override
 	public Map<String, Object> likeSelect(Map<String, Object> map) {
-	
+
 		List<String> orderData = CastUtil.cast(map.get("orderData"));
-		
+
 		String orderStr = "";
 		for (int i = 0; i < orderData.size(); i++) {
 			if (i == orderData.size() - 1) {
@@ -48,20 +55,20 @@ public class BaseService implements IBaseService {
 			}
 			orderStr += orderData.get(i) + ",";
 		}
-	
+
 		Integer currentPage = (Integer) map.get("currentPage");
 
 		Integer start = (currentPage - 1) * 10;
 
 
 		Integer totalPage = 1;
-		
+
 		// sql中的start
 		map.put("start", start);
 		// 每页显示10条
 		map.put("pageSize", 10);
-		
-		
+
+
 		//排序条件
 		map.put("orderStr", orderStr);
 
@@ -70,7 +77,7 @@ public class BaseService implements IBaseService {
 		Integer totalCount = dao.likeSelectCount(map).intValue();
 
 		List<Map<String, Object>> resultList = dao.likeSelect(map);
-		
+
 		if (totalCount != 0) {
 
 			if (totalCount % 10 == 0) {
@@ -80,7 +87,7 @@ public class BaseService implements IBaseService {
 			}
 
 		}
-		
+
 		map.clear();
 		// 当前页
 		map.put("currentPage", currentPage);
@@ -93,20 +100,23 @@ public class BaseService implements IBaseService {
 
 		return map;
 	}
-	
+
 	@Override
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
 	public void batchAdd(List<Map<String, Object>> list) {
 		dao.batchAdd(list);
 	}
-	
+
 	@Override
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
 	public void batchDelete(List<Map<String, Object>> list) {
 		dao.batchDelete(list);
 	}
-	
+
 	@Override
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
 	public void batchUpdate(List<Map<String, Object>> list) {
 		dao.batchUpdate(list);
 	}
-	
+
 }

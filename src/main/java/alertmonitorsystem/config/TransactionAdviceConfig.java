@@ -16,7 +16,7 @@ import org.springframework.transaction.interceptor.TransactionInterceptor;
 /**
  * 全局事务支持
  * 
- * @author zrx
+ * @author zyx
  *
  */
 @Aspect
